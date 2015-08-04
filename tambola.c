@@ -1,11 +1,12 @@
 /*
-Version 1
+Version 1.1
 Gyan Lakhwani
 4 August 2015
 */
 
 #include<conio.h>
 #include<stdlib.h>
+#include<time.h>
 
 void reprint();
 int tic1[10];
@@ -13,8 +14,8 @@ int tic2[10];
 int i=0,j=0;
 void main()
 {
-
 int x=0,n=0,p1=0,p2=0,a=0,p=0,done[100];
+srand(time(NULL));
 for(p=0;p<100;p++)
 {done[p]=0;}
 clrscr();
