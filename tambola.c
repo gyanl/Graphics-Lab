@@ -47,7 +47,7 @@ for(n=0;n<100;n++)
 	  delay(500);
 	}
     }
-    printf("\n\n");
+    printf("\n");
     for(p=0;p<100;p++) {if (done[p]) printf("%d ",p);
     if(p1==10) {printf("\nP1 WINS!!!");delay(2000);exit(0);}
     if(p2==10) {printf("\nP2 WINS!!!");delay(2000);exit(0);}
