@@ -16,8 +16,11 @@ void main()
 {
 int x=0,n=0,p1=0,p2=0,a=0,p=0,done[100];
 srand(time(NULL));
-for(p=0;p<100;p++)
-{done[p]=0;}
+
+while(1)
+{	
+	n++;
+	done[p]=0;}
 clrscr();
 for(j=0;j<100;j=j+10)
   {
@@ -49,8 +52,8 @@ for(n=0;n<100;n++)
     }
     printf("\n");
     for(p=0;p<100;p++) {if (done[p]) printf("%d ",p);
-    if(p1==10) {printf("\nP1 WINS!!!");delay(2000);exit(0);}
-    if(p2==10) {printf("\nP2 WINS!!!");delay(2000);exit(0);}
+    if(p1==10) {printf("\nP1 WINS!!!");getch();exit(0);}
+    if(p2==10) {printf("\nP2 WINS!!!");getch();exit(0);}
     }
     delay(200);reprint();
 }
